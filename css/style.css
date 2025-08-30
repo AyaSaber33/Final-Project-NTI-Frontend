@@ -1,0 +1,39 @@
+/* Reset style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* global style */
+.w-10{
+    width: 10% !important;
+}
+.rotate-15{
+    transform: rotate(15deg);
+}
+.rotate-90 {
+  transform: rotate(90deg);
+}
+.bg-grey-blue{
+    background-color: #eaeef1;
+}
+.w-54{
+    width: 54%;
+}
+
+/* custom style */
+.icon{
+    top: 26px;
+    right: 601px; 
+}
+nav form{
+    padding-right: 12%;
+}
