@@ -31,7 +31,9 @@ ul{
 .gap-8{
     gap: 8rem !important;
 }
-
+.fs-14{
+    font-size: 14px !important;
+}
 /* custom style */
 .icon{
     top: 26px;
