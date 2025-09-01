@@ -25,15 +25,18 @@ ul{
 .bg-grey-blue{
     background-color: #eaeef1;
 }
-.w-54{
-    width: 54%;
+.w-55{
+    width: 55%;
+}
+.gap-8{
+    gap: 8rem !important;
 }
 
 /* custom style */
 .icon{
     top: 26px;
-    right: 601px; 
+    right: 593px; 
 }
 nav form{
-    padding-right: 12%;
+    padding-right: 11%;
 }
