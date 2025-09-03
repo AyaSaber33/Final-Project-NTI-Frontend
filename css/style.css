@@ -34,11 +34,124 @@ ul{
 .fs-14{
     font-size: 14px !important;
 }
+.num-color{
+    color: #9f8884;
+}
+.color-shape{
+    width: 17px;
+    height: 66%;
+}
+.bg-black{
+    background-color: #232228;
+}
+.bg-Blue{
+    background-color: #629fd1;
+}
+.bg-brown{
+    background-color: #a06c30;
+}
+.bg-burgundy{
+    background-color: #560403;
+}
+.bg-cool-pink{
+    background-color: #a93d54;
+}
+.bg-Deep-purple{
+    background-color: #a21f44;
+}
+.bg-grey{
+    background-color: #e0e0e0;
+}
+.bg-green{
+    background-color: #25b14c;
+}
+.bg-light-brown{
+    background-color: #25b14c;
+}
+.bg-navy{
+    background-color: #292e4e;
+}
+.bg-orange{
+    background-color: #ff9e20;
+}
+.bg-pink{
+    background-color: #ffd1dc;
+}
+.bg-purple{
+    background-color: #b799b4;
+}
+.bg-red{
+    background-color: #cc0000;
+}
+.bg-RoseWood{
+    background-color: #b7464d;
+}
+.bg-True-Cotal{
+    background-color: #ba4f4f;
+}
+.bg-yellow{
+    background-color: #f2e576;
+}
+.custom-check:checked {
+  background-color: black;
+  border-color: black;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.h-28{
+    height: 28vh;
+}
+.h-5{
+    height: 5vh;
+}
+.hover-orange:hover{
+    color: #ff4e00;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
 /* custom style */
 .icon{
     top: 26px;
-    right: 593px; 
+    right: 586px; 
 }
 nav form{
     padding-right: 11%;
+}
+.placeholder1::placeholder{
+    font-size:small;
+}
+.custom-scroll::-webkit-scrollbar {
+  width: 4px;              
+  height: 6px;             
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #000;       
+  border-radius: 10px;     
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #333;       
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;     
+  border-radius: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn-animate{
+    transition: all 200ms ease;
+}
+.btn-animate:hover{
+    background-color: #f50505 !important;
 }
