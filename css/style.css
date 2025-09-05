@@ -66,7 +66,7 @@ ul{
     background-color: #25b14c;
 }
 .bg-light-brown{
-    background-color: #25b14c;
+    background-color: #e0d3c3;
 }
 .bg-navy{
     background-color: #292e4e;
@@ -92,6 +92,9 @@ ul{
 .bg-yellow{
     background-color: #f2e576;
 }
+.bg-worm-orange{
+    background-color: #f05025
+}
 .custom-check:checked {
   background-color: black;
   border-color: black;
@@ -108,11 +111,26 @@ ul{
 .h-5{
     height: 5vh;
 }
+.h-4{
+    height: 4vh;
+}
 .hover-orange:hover{
     color: #ff4e00;
 }
+.hover-black:hover{
+    background-color: #000;
+}
 .cursor-pointer{
     cursor: pointer;
+}
+.hover-border:hover{
+    border-bottom: 1px solid #000;
+}
+.w-90{
+    width: 90%;
+}
+.text-gray{
+    color: gray;
 }
 /* custom style */
 .icon{
@@ -154,4 +172,21 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .btn-animate:hover{
     background-color: #f50505 !important;
+}
+.icons-flex{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 1s ease;
+}
+.div-hover:hover .icons-flex{
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+.shadow-right-bottom:hover{
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.8); 
+}
+.card{
+    border-radius:0 ;
 }
