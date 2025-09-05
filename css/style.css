@@ -190,3 +190,6 @@ input[type=number]::-webkit-outer-spin-button {
 .card{
     border-radius:0 ;
 }
+.hover-border:hover{
+    border: 1px solid #000 !important;
+}
