@@ -25,6 +25,9 @@ ul{
 .w-35{
     width: 35%;
 }
+.w-40{
+    width: 40%;
+}
 .ms-50{
     margin-left: 50%;
 }
@@ -147,8 +150,14 @@ ul{
 .w-90{
     width: 90%;
 }
+.w-80{
+    width: 80%;
+}
 .text-gray{
     color: gray;
+}
+.hover-bg-red:hover{
+    background-color: rgb(251, 0, 0);
 }
 /* custom style */
 .icon{
