@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     font-family: 'Poppins', sans-serif;
 }
 a{
@@ -15,6 +15,12 @@ ul{
 /* global style */
 .w-10{
     width: 10% !important;
+}
+.w-35{
+    width: 35%;
+}
+.ms-50{
+    margin-left: 50%;
 }
 .rotate-15{
     transform: rotate(15deg);
@@ -95,6 +101,9 @@ ul{
 .bg-worm-orange{
     background-color: #f05025
 }
+.bg-footer{
+    background-color: #1b1f22;
+}
 .custom-check:checked {
   background-color: black;
   border-color: black;
@@ -119,6 +128,9 @@ ul{
 }
 .hover-black:hover{
     background-color: #000;
+}
+.hover-red:hover{
+    color: red !important;
 }
 .cursor-pointer{
     cursor: pointer;
@@ -193,3 +205,13 @@ input[type=number]::-webkit-outer-spin-button {
 .hover-border:hover{
     border: 1px solid #000 !important;
 }
+.input-email::placeholder{
+    font-size: 14px;
+}
+.input-email{
+    padding: 4% 35% 4% 10%;
+}
+
+/* .link-underline{
+    try to make it animate like the original one
+} */
