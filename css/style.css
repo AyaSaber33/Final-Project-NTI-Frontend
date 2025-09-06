@@ -234,3 +234,9 @@ input[type=number]::-webkit-outer-spin-button {
     width: 10px;
     height: 10px;
 }
+.img-hover-bright{
+    transition: filter .5s ease;
+}
+.img-hover-bright:hover{
+    filter: brightness(1.2);
+}
