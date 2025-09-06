@@ -28,6 +28,12 @@ ul{
 .w-40{
     width: 40%;
 }
+.w-30{
+    width: 30%;
+}
+.w-200{
+    width: 200%;
+}
 .ms-50{
     margin-left: 50%;
 }
@@ -157,7 +163,7 @@ ul{
     color: gray;
 }
 .hover-bg-red:hover{
-    background-color: rgb(251, 0, 0);
+    background-color: rgb(251, 0, 0) !important;
 }
 /* custom style */
 .icon{
@@ -239,4 +245,17 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .img-hover-bright:hover{
     filter: brightness(1.2);
+}
+.hover-border-bottom:hover{
+    border-bottom: 1px solid black;
+}
+.hover-Fullborder:hover{
+    border: 1px solid black;
+}
+.zoom-img{
+    transition: all .3s ease;
+}
+.zoom-img:hover{
+    cursor: zoom-in;
+    transform: scale(1.5);
 }
