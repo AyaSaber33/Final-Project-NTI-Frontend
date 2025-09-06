@@ -13,6 +13,12 @@ ul{
     list-style: none;
 }
 /* global style */
+.fw-100{
+    font-weight: 100;
+}
+.fs-60{
+    font-size: 60px;
+}
 .w-10{
     width: 10% !important;
 }
@@ -215,3 +221,7 @@ input[type=number]::-webkit-outer-spin-button {
 /* .link-underline{
     try to make it animate like the original one
 } */
+.live{
+    width: 10px;
+    height: 10px;
+}
