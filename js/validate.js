@@ -62,15 +62,17 @@ message.addEventListener('input', ()=>{
 })
 
 document.getElementById("formHandler").addEventListener('submit',(e)=>{
-    if(userName.value.trim() && email.value.trim() && subject.value.trim() && message.value.trim()){
-        if(isValidName && isValidEmail && isValidAddress && isValidMessage){
-            formError.textContent="form submitted, thanks for filling the form";
-            formError.style.color = "green";
-        }
-    }else{
+    if(!userName.value.trim() || !email.value.trim() || !subject.value.trim() || !message.value.trim()){
         formError.textContent="please fill all required fields";
         formError.style.color = "red";
         e.preventDefault();
+    }else if(!isValidName|| !isValidEmail || !isValidAddress || !isValidMessage){
+        formError.textContent="please match the format for each input";
+        formError.style.color = "red";
+        e.preventDefault();
+    }else{
+        formError.textContent="form submitted, thanks for filling the form";
+        formError.style.color = "green";
     }
 })
 
