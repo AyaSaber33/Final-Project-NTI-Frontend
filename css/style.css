@@ -123,6 +123,9 @@ ul{
 .bg-light-green{
     background-color: #e9f1eb;
 }
+.bg-powder-green{
+    background-color: #d3efdb;
+}
 .custom-check:checked {
   background-color: black;
   border-color: black;
@@ -172,6 +175,9 @@ ul{
 .img-small{
     height: 7vh;
     width: 9%;
+}
+.mt-6{
+    margin-top: 6%;
 }
 /* custom style */
 .icon{
@@ -274,4 +280,8 @@ input[type=number]::-webkit-outer-spin-button {
 .div-img{
     height: 92vh;
     width: 65%;
+}
+.hover-trans:hover{
+    color: #2e7a43 !important;
+    background-color: transparent !important;
 }
